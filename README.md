@@ -6,11 +6,14 @@ Bank security console is a site that can be connected to a remote database with 
 
 ### How to install
 
-Create a `.env` file in the project directory and add your DB host, DB password and site secret key:
+Create a `.env` file in the project directory and add your DB host, password, port, name, user and site secret key:
 ```
 DB_HOST=your_db_host
 DB_PASSWORD=password
 SECRET_KEY=your_sectret_keyview the preview side-by-side
+DB_PORT=your_db_port
+DB_NAME=your_db_name
+DB_USER=your_db_user
 ```
 
 Python3 should already be installed. 
